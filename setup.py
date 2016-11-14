@@ -10,7 +10,5 @@ setup(name='fnx',
       install_requires=[
          'scipy'
       ],
-      packages=[
-          'fnx'
-      ]
+      packages=['fnx'],
       zip_safe=False)
