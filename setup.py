@@ -7,5 +7,7 @@ setup(name='fnx',
       author='Mindey I.',
       author_email='mindey@qq.com',
       license='MIT',
-      packages=['fnx'],
+      install_requires=[
+         'scipy'
+      ],
       zip_safe=False)
