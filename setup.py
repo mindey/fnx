@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='fnx',
-      version='0.0.1',
+      version='0.0.2',
       description='',
       url='https://github.com/mindey/fnx',
       author='Mindey I.',
@@ -10,4 +10,7 @@ setup(name='fnx',
       install_requires=[
          'scipy'
       ],
+      packages=[
+          'fnx'
+      ]
       zip_safe=False)

@@ -1,7 +1,7 @@
 import unittest
 import datetime
 
-import fnx
+from fnx.xirr import xirr
 
 class BasicTest(unittest.TestCase):
     def test_xirr(self):
@@ -11,7 +11,7 @@ class BasicTest(unittest.TestCase):
 
         result = 0.010061265164920336
 
-        self.assertEqual(fnx.xirr(test_values, test_dates), result)
+        self.assertEqual(xirr(test_values, test_dates), result)
 
 if __name__ == '__main__':
     unittest.main()
